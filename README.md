@@ -1,0 +1,2 @@
+# GGQL
+GitHub GraphQL Playground
