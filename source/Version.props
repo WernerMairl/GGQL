@@ -1,0 +1,30 @@
+<!-- this props file is injected into each .csproj file that is part of the current solution (Directory.Build.props)-->
+<Project>
+
+  <PropertyGroup>
+    <BuildTimestamp>-22</BuildTimestamp>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(BuildingInsideVisualStudio)' != 'true'">
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(BuildingInsideVisualStudio)' == 'true'">
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Customize this properties for the current solution  -->    
+    <BuildQuality>preview</BuildQuality>
+    <VersionSuffix>$(BuildQuality)$(BuildTimestamp)</VersionSuffix>
+    <VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- properties common to multiple projects and solution (lowest probability for customization) -->
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <GenerateAssemblyDescriptionAttribute >false</GenerateAssemblyDescriptionAttribute >  
+    <GenerateAssemblyTitleAttribute >false</GenerateAssemblyTitleAttribute> 
+  </PropertyGroup>
+
+
+
+</Project>

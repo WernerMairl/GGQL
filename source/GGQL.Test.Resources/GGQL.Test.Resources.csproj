@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="IssueRequests\FirstDraft.json" />
+    <None Remove="RepositoryRequests\Microsoft_July.zip" />
+    <None Remove="RepositoryRequests\Xamarin_July.zip" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="IssueRequests\FirstDraft.json" />
+    <EmbeddedResource Include="RepositoryRequests\Microsoft_July.zip" />
+    <EmbeddedResource Include="RepositoryRequests\Xamarin_July.zip" />
+  </ItemGroup>
+
+</Project>

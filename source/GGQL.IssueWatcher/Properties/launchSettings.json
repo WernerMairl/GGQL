@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GGQL.Worker": {
+      "commandName": "Project",
+      "commandLineArgs": "-v"
+    }
+  }
+}
