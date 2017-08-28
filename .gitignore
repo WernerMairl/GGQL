@@ -1,0 +1,17 @@
+source/.vs/
+source/GGQL.Core.Test/bin/
+source/GGQL.Core.Test/obj/
+source/GGQL.Core/bin/
+source/GGQL.Core/obj/
+source/GGQL.IssueWatcher/obj/
+source/GGQL.IssueWatcher/bin/
+source/GGQL.Test.Resources/obj/
+source/GGQL.Test.Resources/bin/
+source/SQLiteExtensions/obj/
+source/SQLiteExtensions/bin/
+source/GGQL.Worker/obj/
+source/GGQL.Worker/bin/
+source/GGQL.RepositoryWatcher/obj/
+source/GGQL.RepositoryWatcher/bin/
+
+
